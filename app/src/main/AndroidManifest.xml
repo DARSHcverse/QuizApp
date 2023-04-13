@@ -12,7 +12,22 @@
         android:theme="@style/Theme.Quiz_App"
         tools:targetApi="31">
         <activity
+            android:name=".Result_Page"
+            android:exported="false" />
+        <activity
+            android:name=".Question_5"
+            android:exported="false" />
+        <activity
+            android:name=".Question_4"
+            android:exported="false" />
+        <activity
+            android:name=".Question_3"
+            android:exported="false" />
+        <activity
             android:name=".Question_1"
+            android:exported="false" />
+        <activity
+            android:name=".Question_2"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

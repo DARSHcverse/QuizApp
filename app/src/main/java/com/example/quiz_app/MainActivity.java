@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent Q1=new Intent(MainActivity.this,Question_1.class);
-                Q1.putExtra("Quiz_Q1","Answer");
+                //Q1.putExtra("Quiz_Q1","Answer");
                 Q1.putExtra("User_name",Name.getText().toString());
                 startActivity(Q1);
             }
